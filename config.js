@@ -4,20 +4,20 @@ const fs = require("fs");
 //to disable function - false
 //
 global.available = false;
-global.autoReadGc = false;
-global.autoReadAll = false;
-global.antitags = false;
+global.autoReadGc = true;
+global.autoReadAll = true;
+global.antitags = true;
 
 
 //auto functioner
 global.autoTyping = false;                //make true to enable auto typing
 global.autoRecord = true;                //make true to enable auto recording
-global.autoviewstatus = false;                 //make true to view statuses 
-global.anticall = false
+global.autoviewstatus = true;                 //make true to view statuses 
+global.anticall = true
 
 
 global.SESSION_ID = process.env.SESSION_ID || ""
-global.Owner = ["2349151864541"]; //like 2347080968564 
+global.Owner = ["254727975263"]; //like 2347080968564 
 global.OwnerName =  "Tᴀɪʀᴀ Mᴀᴋɪɴᴏ";
 global.BotName = "♱MAKINO-MD-V2♱♡⃤";
 global.packname = "♱MAKINO-MD-V2♱♡⃤";                             //Do not change.
@@ -26,7 +26,7 @@ global.BotSourceCode = "https://github.com/anonphoenix007/MAKINO-MD-V2"; //Do no
 global.SupportGroupLink = "https://chat.whatsapp.com/DOVRqF006VHHZhiSNwJRce"; 
 global.SupportGroupLink = "https://chat.whatsapp.com/DOVRqF006VHHZhiSNwJRce"; //Do not change!
 global.menutype = "v3"
-
+my
 global.prefa = ['','!','.',','] 
 
 //
